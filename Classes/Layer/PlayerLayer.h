@@ -5,6 +5,8 @@
 USING_NS_CC;
 
 #include"Sprite/Player.h"
+#include"Sprite/PlayerWeapon1.h"
+#include"Sprite/PlayerWeapon2.h"
 
 class PlayerLayer :public Layer
 {

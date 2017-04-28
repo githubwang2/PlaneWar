@@ -22,4 +22,13 @@ void PlayerLayer::starPlane()
 	m_player->setPosition(startPos);
 	m_player->runAction(MoveTo::create(1.0f, endPos));
 	addChild(m_player);
+
+	auto playerWeapon1 = PlayerWeapon1::create();
+	playerWeapon1->setAngleIndex(2);
+	playerWeapon1->setPosition(endPos);
+	addChild(playerWeapon1);
+
+	auto playerWeapon2 = PlayerWeapon2::create();
+	playerWeapon2->setPosition(400, 300);
+	addChild(playerWeapon2);
 }

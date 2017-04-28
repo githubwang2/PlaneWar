@@ -17,6 +17,7 @@ bool PlaneWarScene::init()
 		return false;
 	}
 
+	SpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("bullet.plist");
 	run();
 	return true;
 }

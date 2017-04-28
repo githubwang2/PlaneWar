@@ -6,7 +6,7 @@ bool Player::init()
 	{
 		return false;
 	}
-	SpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile("player.plist");
+	SpriteFrameCache::sharedSpriteFrameCache()->addSpriteFramesWithFile(PLAYER_PLIST);
 
 	visibleSize = Director::getInstance()->getVisibleSize();
 

@@ -1,10 +1,12 @@
-#ifndef __PlaneGame_Player__
-#define __PlaneGame_Player__
+#ifndef __PlaneGame__Player__
+#define __PlaneGame__Player__
 
 #include"cocos2d.h"
 USING_NS_CC;
+#include"ConstUtil.h"
+#include"Sprite/BodyParent.h"
 
-class Player :public Sprite
+class Player :public BodyParent
 {
 public:
 
